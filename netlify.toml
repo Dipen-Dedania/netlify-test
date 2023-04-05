@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "/index-us.html"
+  to = "/us/*"
 
   status = 301
 
@@ -16,7 +16,7 @@
 
   [[redirects]]
   from = "/*"
-  to = "/index-gb.html"
+  to = "/gb/*"
 
   status = 301
 
@@ -32,7 +32,7 @@
 
   [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/fr/*"
 
   status = 301
 
@@ -43,4 +43,4 @@
 
   # Redirect based on conditions including browser language, geolocation,
   # identity role, and/or cookie presence.
-  conditions = {Country != ["US"]}
+  conditions = {Country = ["FR"]}
